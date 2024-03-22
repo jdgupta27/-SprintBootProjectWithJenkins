@@ -8,6 +8,7 @@ public class SprintBootProjectWithJenkinsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SprintBootProjectWithJenkinsApplication.class, args);
+		System.out.println("Hello");
 	}
 
 }
