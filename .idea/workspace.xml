@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0fc57d5a-a932-46e8-afcd-6c1629e9c6cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jd/SprintBootProjectWithJenkins/SprintBootProjectWithJenkinsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jd/SprintBootProjectWithJenkins/SprintBootProjectWithJenkinsApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,18 @@
       </set>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2dmI1zjs9o9wLGhBLw6iRqkKlOV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,11 +48,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+      <command value="mvn test" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -54,9 +68,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SprintBootProjectWithJenkinsApplication">
+  <component name="RunManager" selected="JUnit.SprintBootProjectWithJenkinsApplicationTests">
     <configuration name="SprintBootProjectWithJenkinsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.jd.SprintBootProjectWithJenkins.SprintBootProjectWithJenkinsApplication" />
       <module name="SprintBootProjectWithJenkins" />
@@ -86,12 +100,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SprintBootProjectWithJenkinsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SprintBootProjectWithJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jd.SprintBootProjectWithJenkins.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jd.SprintBootProjectWithJenkins" />
+      <option name="MAIN_CLASS_NAME" value="com.jd.SprintBootProjectWithJenkins.SprintBootProjectWithJenkinsApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SprintBootProjectWithJenkinsApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SprintBootProjectWithJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jd.SprintBootProjectWithJenkins.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jd.SprintBootProjectWithJenkins" />
+      <option name="MAIN_CLASS_NAME" value="com.jd.SprintBootProjectWithJenkins.SprintBootProjectWithJenkinsApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SprintBootProjectWithJenkinsApplication" />
       <item itemvalue="JUnit.All in SprintBootProjectWithJenkins" />
+      <item itemvalue="JUnit.SprintBootProjectWithJenkinsApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SprintBootProjectWithJenkinsApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SprintBootProjectWithJenkinsApplicationTests" />
+        <item itemvalue="JUnit.SprintBootProjectWithJenkinsApplicationTests.contextLoads" />
         <item itemvalue="Application.SprintBootProjectWithJenkinsApplication" />
         <item itemvalue="JUnit.All in SprintBootProjectWithJenkins" />
       </list>
@@ -108,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1710606615964</updated>
     </task>
+    <task id="LOCAL-00001" summary="add port">
+      <created>1711192948809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711192948809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add port" />
+    <option name="LAST_COMMIT_MESSAGE" value="add port" />
   </component>
 </project>
